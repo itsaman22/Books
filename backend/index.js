@@ -6,7 +6,7 @@ const Book = require('./models/Books')
 const cors = require('cors')
 
 const PORT = process.env.PORT || 5001
-const mongo = 'mongodb+srv://amansample22_db_user:TJMEn846YBS4n6kW@books.thekkkz.mongodb.net/niet_books'
+const mongo = 'mongodb+srv://amansample22_db_user:TJMEn846YBS4n6kW@books.thekkkz.mongodb.net/niet_books?retryWrites=true&w=majority&appName=Books'
 
 // middleware
 app.use(express.json())
